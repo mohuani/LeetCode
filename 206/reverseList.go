@@ -17,6 +17,8 @@ type ListNode struct {
 	Next *ListNode
 }
 
+// 翻转链表
+
 // 指针思路
 func reverseList(head *ListNode) *ListNode {
 	var pre *ListNode
